@@ -1,14 +1,12 @@
 {
-  "name": "boilerplate",
+  "name": "hangman",
   "version": "1.0.0",
-  "homepage": "https://thalesleite.github.io/hangman",
+  "homepage": "",
   "description": "",
   "main": "input.js",
   "scripts": {
     "dev-server": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "predeploy": "rm -rf dist && npm run build index.html --public-url https://thalesleite.github.io/hangman",
-    "deploy": "gh-pages -d build"
+    "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
